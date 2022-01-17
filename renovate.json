@@ -18,5 +18,9 @@
     "docker:enableMajor"
   ],
   "pinDigests": true,
-  "prConcurrentLimit": 3
+  "prConcurrentLimit": 3,
+  "maven": {
+	    "enabled": true,
+	    "registryUrls": ["https://artifactoryurl1/", "https://artifactoryurl2/"]
+	}
 }
